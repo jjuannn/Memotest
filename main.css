@@ -1,0 +1,38 @@
+.columna-juego{
+    border: 1px solid black;
+}
+.cuadro{
+    cursor: pointer;
+    transition: opacity ease 0.2s;
+    opacity: 0;    
+}
+.fila-juego{
+    height: 25vh;
+}
+.rojo{
+    background: red;
+}
+.azul{
+    background: blue;
+}
+.amarillo{
+    background: yellow;
+}
+.verde{
+    background: green;
+}
+.blanco{
+    background:  white;
+}
+.negro{
+    background: black;
+}
+.completo{
+    background: gray;
+}
+.exito{
+    display: none;
+}
+#fin-juego{
+    display: none;
+}
